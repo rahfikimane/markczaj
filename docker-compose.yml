@@ -1,0 +1,8 @@
+version: '3'
+services:
+  markczaj2025:
+    build: .
+    container_name: markczaj2025
+    ports:
+      - "3000:3000"
+    restart: always 
